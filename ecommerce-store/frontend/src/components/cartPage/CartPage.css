@@ -1,0 +1,192 @@
+.cartContainer {
+  margin: auto;
+  margin-top: 80px;
+  width: 80%;
+  max-width: 1000px;
+}
+
+.myCartContainer {
+  width: 100%;
+}
+
+.myCartContainer th {
+  text-align: left;
+}
+
+.myCartContainer .firstCol {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.myCartContainer tbody {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.myCartContainer .cartProd {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.myCartContainer .cartProdImg {
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.myCartContainer .cartProduct {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.myCartContainer .cartTableCalculation {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cartPrice {
+  position: relative;
+}
+
+.myCartContainer .cartDel {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  bottom: 0;
+  height: fit-content;
+  margin: auto;
+  display: flex;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.myCartContainer .cartDel:hover {
+  color: var(--dusty-rose);
+}
+
+.emptyCartContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: 50vh;
+}
+
+.emptyCartContainer .emptyCartContainerHeading {
+  font-size: 20px;
+}
+
+.emptyCartContainer .emptyCartIcon {
+  font-size: 45px;
+}
+
+.emptyCartContainer .emptyCartContainerBtns {
+  display: flex;
+  gap: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.emptyCartContainer .emptyCartContainerBtns .emptyCartContainerBtn {
+  background-color: var(--dusty-rose);
+  opacity: 0.7;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 3px;
+  box-shadow: var(--shadow);
+}
+
+.emptyCartContainer .emptyCartContainerBtns .emptyCartContainerBtn:hover {
+  opacity: 1;
+}
+
+.selectAddress {
+  margin-top: 30px;
+}
+
+.selectAddressHeading {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.selectAddress .profileRightSectionContentItemValue {
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.selectAddress .profileRightSectionContentItemValue:hover {
+  background-color: var(--cream);
+}
+
+.selectAddress .selectedAddressCart {
+  background-color: var(--cream);
+}
+
+.selectPayment {
+  margin-top: 30px;
+}
+
+.selectPaymentHeading {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.selectPaymentImg{
+    width: 100%;
+    max-width: 600px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0px;
+}
+
+.selectPaymentMethod{
+    display: flex;
+    gap: 20px;
+}
+
+.orderBtn{
+    border: none;
+    border-radius: 3px;
+    background-color: var(--neon-pink);
+    padding: 5px 8px;
+    box-shadow: var(--shadow);
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.5s ease;
+}
+
+.orderBtn:disabled{
+    opacity: 0.5;
+    background-color: var(--dark-grey);
+    cursor: default;
+}
+
+.orderBtn:hover{
+    opacity: 1;
+}
+
+.orderBtn:disabled:hover{
+  opacity: 0.5;
+}

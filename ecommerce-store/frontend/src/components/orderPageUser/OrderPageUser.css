@@ -1,0 +1,88 @@
+.OrderPageUserContainer {
+  margin: auto;
+  margin-top: 80px;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.ordersListContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.orderItem {
+  border-radius: 3px;
+  box-shadow: var(--shadow);
+  padding: 8px 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  user-select: none;
+  position: relative;
+  align-items: flex-start;
+}
+
+.orderProductsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.orderProd {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.orderProdImg {
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3px;
+}
+
+.orderPricePaymentMethod {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  left: 0;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+
+.orderPrice {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.paymentMethod {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.orderStatus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.orderCurrentStatus {
+  color: var(--neon-pink);
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.orderUpdatedAt{
+    font-size: 12px;
+    font-weight: 300;
+}

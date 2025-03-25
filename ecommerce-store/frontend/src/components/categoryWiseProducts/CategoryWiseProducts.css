@@ -1,0 +1,41 @@
+.categoryWiseContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 80px;
+  width: 90%;
+  max-width: 1000px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.categoryHeading{
+  text-transform: capitalize;
+}
+
+.categoryWiseContainer .categoryWiseProductContainer {
+  display: flex;
+  margin-top: 0;
+  gap: 20px;
+  justify-content: start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 0;
+  width: 100%;
+}
+
+.categoryWiseProductContainer .categoryProductsListCard {
+  width: fit-content;
+}
+
+@media screen and (max-width: 500px) {
+  .categoryWiseContainer .categoryWiseProductContainer {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .categoryWiseProductContainer .categoryProductsListCard {
+    width: 100%;
+  }
+}

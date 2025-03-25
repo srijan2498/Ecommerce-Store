@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+:root {
+  --peach: #ffdab9; /* Soft and warm */
+  --cream: #fff5e1; /* Light and airy */
+  --muted-sage: #c3d1b5; /* Calming touch */
+  --dusty-rose: #e8a2a2; /* Feminine accent */
+  --light-grey: #f6f6f6; /* Clean background */
+  --sky-blue: #bfd7ed; /* Soft, trustworthy */
+  --pale-mint: #d4ecdd; /* Refreshing */
+  --muted-lavender: #d8bfd8; /* Stylish contrast */
+  --neon-pink: #ff4785; /* Bold and vibrant */
+  --grey-text: #6b6b6b; /* Text color */
+  --dark-grey: #909090; /* Dark text */
+  --shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /* Box shadow */
+}
+
+.container{
+  min-height: 67.2vh;
+}

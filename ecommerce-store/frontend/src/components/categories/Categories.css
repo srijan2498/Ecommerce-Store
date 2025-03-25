@@ -1,0 +1,92 @@
+@import url("../../index.css");
+
+.categoriesContainer {
+  display: flex;
+  margin: auto;
+  margin-top: 2rem;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.categoryHeading {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.viewMoreBtn {
+  background-color: var(--neon-pink);
+  width: fit-content;
+  height: fit-content;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.5s ease;
+  box-shadow: var(--shadow);
+}
+
+.viewMoreBtn:hover{
+  opacity: 1;
+}
+
+.categoryProductsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.categoryProductsListCard {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+
+.categoryProductsListCard .productImg {
+  overflow: hidden;
+  width: 100%;
+  min-width: 200px;
+  height: 85%;
+  min-height: 200px;
+}
+
+.categoryProductsListCard .categoryProductsListCardImage {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease-in-out;
+}
+
+.categoryProductsListCard:hover .categoryProductsListCardImage {
+  transform: scale(1.1);
+}
+
+.categoryProductsListCardDetails {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.categoryProductsListCardName {
+  font-size: 18px;
+}
+
+.productPrices {
+  font-size: 13px;
+  font-weight: 400;
+  margin: 5px 0px;
+}
+
+@media screen and (max-width: 510px) {
+  .categoryProductsListCard {
+    width: 100%;
+    height: 400px;
+  }
+}

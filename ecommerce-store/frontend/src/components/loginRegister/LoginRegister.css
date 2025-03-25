@@ -1,0 +1,79 @@
+@import url('../../index.css');
+
+.loginRegisterContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.leftPanel{
+    width: 50px;
+    height: 40vh;
+    background-color: var(--dusty-rose);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.loginRegisterHeading{
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+}
+
+.rightPanel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    height: 50vh;
+    min-height: fit-content;
+    width: 50%;
+    max-width: 400px;
+    background-color: var(--peach);
+    padding: 30px 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label{
+    margin-bottom: 5px;
+}
+
+form input{
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button{
+    padding: 10px;
+    background-color: var(--dusty-rose);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.loginRegisterLink{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginRegisterLink a{
+    color: var(--neon-pink);
+    margin-top: 5px;
+}

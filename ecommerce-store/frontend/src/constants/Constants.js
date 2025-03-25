@@ -1,0 +1,1 @@
+export const backendApiPrefix = 'http://localhost:8000/api'
