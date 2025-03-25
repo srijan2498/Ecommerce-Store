@@ -236,7 +236,14 @@ const CartPage = () => {
                 })}
               </div>
             ) : (
-              <div></div>
+              <div className="emptyCartContainerBtns">
+                <span
+                  className="createAddressOrder"
+                  onClick={() => navigate("/my-addresses")}
+                >
+                  Create Address
+                </span>
+              </div>
             )}
           </div>
         ) : (
