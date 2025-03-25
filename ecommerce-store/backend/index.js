@@ -13,7 +13,7 @@ const app = express();
 dotenv.config();
 
 const corsOptions = {
-  origin: "https://srijan-appoint.vercel.app", // Specify the allowed origin
+  origin: "https://srijan-vestiq.vercel.app", // Specify the allowed origin
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true, // Include credentials like cookies
 };
