@@ -1,1 +1,1 @@
-export const backendApiPrefix = 'http://localhost:8000/api'
+export const backendApiPrefix = 'https://srijan-ecommerce-store-backend.vercel.app'
