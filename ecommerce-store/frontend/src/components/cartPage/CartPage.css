@@ -9,6 +9,16 @@
   width: 100%;
 }
 
+.createAddressOrder{
+  background-color: var(--neon-pink);
+  padding: 8px 10px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.5s ease;
+}
+
 .myCartContainer th {
   text-align: left;
 }
